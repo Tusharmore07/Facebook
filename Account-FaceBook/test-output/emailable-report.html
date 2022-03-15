@@ -1,0 +1,242 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">ChromeTest</a></td><td class="num">0</td><td class="num attn">2</td><td class="num">0</td><td class="num">0</td><td class="num">3,711</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">EdgeTest</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">57,804</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">0</th><th class="num attn">2</th><th class="num">0</th><th class="num attn">2</th><th class="num">61,515</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">ChromeTest &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">fbTest.AddFriendTestNg</td><td><a href="#m0">launchBrowser</a></td><td rowspan="1">1646747873250</td><td rowspan="1">3517</td></tr><tr><th colspan="4">ChromeTest &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="5">fbTest.AddFriendTestNg</td><td><a href="#m1">ceateObject</a></td><td rowspan="1">1646747876843</td><td rowspan="1">-1646747876843</td></tr><tr class="skippedeven"><td><a href="#m2">clearPOMObject</a></td><td rowspan="1">1646747876893</td><td rowspan="1">-1646747876893</td></tr><tr class="skippedeven"><td><a href="#m3">closeBrowser</a></td><td rowspan="1">1646747876940</td><td rowspan="1">-1646747876940</td></tr><tr class="skippedeven"><td><a href="#m4">logOutFaceBook</a></td><td rowspan="1">1646747876878</td><td rowspan="1">-1646747876878</td></tr><tr class="skippedeven"><td><a href="#m5">loginToFaceBook</a></td><td rowspan="1">1646747876862</td><td rowspan="1">-1646747876862</td></tr><tr class="skippedodd"><td rowspan="6">fbTest.HeaderPageTestNg</td><td><a href="#m6">ceateObject</a></td><td rowspan="1">1646747876898</td><td rowspan="1">-1646747876898</td></tr><tr class="skippedodd"><td><a href="#m7">clearPOMObject</a></td><td rowspan="1">1646747876925</td><td rowspan="1">-1646747876925</td></tr><tr class="skippedodd"><td><a href="#m8">closeBrowser</a></td><td rowspan="1">1646747876947</td><td rowspan="1">-1646747876947</td></tr><tr class="skippedodd"><td><a href="#m9">launchBrowser</a></td><td rowspan="1">1646747876796</td><td rowspan="1">-1646747876796</td></tr><tr class="skippedodd"><td><a href="#m10">logOutFaceBook</a></td><td rowspan="1">1646747876918</td><td rowspan="1">-1646747876918</td></tr><tr class="skippedodd"><td><a href="#m11">loginToFaceBook</a></td><td rowspan="1">1646747876905</td><td rowspan="1">-1646747876905</td></tr><tr><th colspan="4">ChromeTest &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">fbTest.AddFriendTestNg</td><td><a href="#m12">addFriendOperation</a></td><td rowspan="1">1646747876864</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="1">fbTest.HeaderPageTestNg</td><td><a href="#m13">faceBookHeaderPage</a></td><td rowspan="1">1646747876907</td><td rowspan="1">0</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">EdgeTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">fbTest.AddFriendTestNg</td><td><a href="#m14">addFriendOperation</a></td><td rowspan="1">1646747890154</td><td rowspan="1">10037</td></tr><tr class="failedodd"><td rowspan="1">fbTest.HeaderPageTestNg</td><td><a href="#m15">faceBookHeaderPage</a></td><td rowspan="1">1646747906371</td><td rowspan="1">24187</td></tr></tbody>
+</table>
+<h2>ChromeTest</h2><h3 id="m0">fbTest.AddFriendTestNg#launchBrowser</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Chrome</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 97
+Current browser version is 99.0.4844.51 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-CSUM0VT&apos;, ip: &apos;192.168.1.33&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x004AFDC3+2555331]
+	Ordinal0 [0x004477F1+2127857]
+	Ordinal0 [0x00342E08+1060360]
+	Ordinal0 [0x003619CA+1186250]
+	Ordinal0 [0x0035D825+1169445]
+	Ordinal0 [0x0035AFC1+1159105]
+	Ordinal0 [0x0038C22F+1360431]
+	Ordinal0 [0x0038BE9A+1359514]
+	Ordinal0 [0x00387976+1341814]
+	Ordinal0 [0x003636B6+1193654]
+	Ordinal0 [0x00364546+1197382]
+	GetHandleVerifier [0x00649622+1619522]
+	GetHandleVerifier [0x006F882C+2336844]
+	GetHandleVerifier [0x005423E1+541697]
+	GetHandleVerifier [0x00541443+537699]
+	Ordinal0 [0x0044D18E+2150798]
+	Ordinal0 [0x00451518+2168088]
+	Ordinal0 [0x00451660+2168416]
+	Ordinal0 [0x0045B330+2208560]
+	BaseThreadInitThunk [0x76DFFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x776C7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x776C7A6E+238]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at fbTest.AddFriendTestNg.launchBrowser(AddFriendTestNg.java:39)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">fbTest.AddFriendTestNg#ceateObject</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">fbTest.AddFriendTestNg#clearPOMObject</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">fbTest.AddFriendTestNg#closeBrowser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">fbTest.AddFriendTestNg#logOutFaceBook</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">fbTest.AddFriendTestNg#loginToFaceBook</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">fbTest.HeaderPageTestNg#ceateObject</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">fbTest.HeaderPageTestNg#clearPOMObject</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">fbTest.HeaderPageTestNg#closeBrowser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">fbTest.HeaderPageTestNg#launchBrowser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">fbTest.HeaderPageTestNg#logOutFaceBook</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">fbTest.HeaderPageTestNg#loginToFaceBook</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">fbTest.AddFriendTestNg#addFriendOperation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 97
+Current browser version is 99.0.4844.51 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-CSUM0VT&apos;, ip: &apos;192.168.1.33&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x004AFDC3+2555331]
+	Ordinal0 [0x004477F1+2127857]
+	Ordinal0 [0x00342E08+1060360]
+	Ordinal0 [0x003619CA+1186250]
+	Ordinal0 [0x0035D825+1169445]
+	Ordinal0 [0x0035AFC1+1159105]
+	Ordinal0 [0x0038C22F+1360431]
+	Ordinal0 [0x0038BE9A+1359514]
+	Ordinal0 [0x00387976+1341814]
+	Ordinal0 [0x003636B6+1193654]
+	Ordinal0 [0x00364546+1197382]
+	GetHandleVerifier [0x00649622+1619522]
+	GetHandleVerifier [0x006F882C+2336844]
+	GetHandleVerifier [0x005423E1+541697]
+	GetHandleVerifier [0x00541443+537699]
+	Ordinal0 [0x0044D18E+2150798]
+	Ordinal0 [0x00451518+2168088]
+	Ordinal0 [0x00451660+2168416]
+	Ordinal0 [0x0045B330+2208560]
+	BaseThreadInitThunk [0x76DFFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x776C7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x776C7A6E+238]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at fbTest.AddFriendTestNg.launchBrowser(AddFriendTestNg.java:39)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">fbTest.HeaderPageTestNg#faceBookHeaderPage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 97
+Current browser version is 99.0.4844.51 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-CSUM0VT&apos;, ip: &apos;192.168.1.33&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x004AFDC3+2555331]
+	Ordinal0 [0x004477F1+2127857]
+	Ordinal0 [0x00342E08+1060360]
+	Ordinal0 [0x003619CA+1186250]
+	Ordinal0 [0x0035D825+1169445]
+	Ordinal0 [0x0035AFC1+1159105]
+	Ordinal0 [0x0038C22F+1360431]
+	Ordinal0 [0x0038BE9A+1359514]
+	Ordinal0 [0x00387976+1341814]
+	Ordinal0 [0x003636B6+1193654]
+	Ordinal0 [0x00364546+1197382]
+	GetHandleVerifier [0x00649622+1619522]
+	GetHandleVerifier [0x006F882C+2336844]
+	GetHandleVerifier [0x005423E1+541697]
+	GetHandleVerifier [0x00541443+537699]
+	Ordinal0 [0x0044D18E+2150798]
+	Ordinal0 [0x00451518+2168088]
+	Ordinal0 [0x00451660+2168416]
+	Ordinal0 [0x0045B330+2208560]
+	BaseThreadInitThunk [0x76DFFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x776C7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x776C7A6E+238]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at fbTest.AddFriendTestNg.launchBrowser(AddFriendTestNg.java:39)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>EdgeTest</h2><h3 id="m14">fbTest.AddFriendTestNg#addFriendOperation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//label[contains(@class,&apos;lzcic4wl gs1a9yip br7hx1&apos;)]&quot;}
+  (Session info: MicrosoftEdge=99.0.1150.30)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-CSUM0VT&apos;, ip: &apos;192.168.1.33&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 99.0.1150.30, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:61741}, msedge: {msedgedriverVersion: 98.0.1108.62 (86b4ba0c0a320..., userDataDir: C:\Users\Admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ed27629ada56fa2f5f5c9e11235b9578
+*** Element info: {Using=xpath, value=//label[contains(@class,&apos;lzcic4wl gs1a9yip br7hx1&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.sendKeys(Unknown Source)
+	at pom.AddFriendFaceBook.clickOnSearchBar(AddFriendFaceBook.java:38)
+	at fbTest.AddFriendTestNg.addFriendOperation(AddFriendTestNg.java:94)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">fbTest.HeaderPageTestNg#faceBookHeaderPage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;k4urcfbm&apos;]//label&quot;}
+  (Session info: MicrosoftEdge=99.0.1150.30)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-CSUM0VT&apos;, ip: &apos;192.168.1.33&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 99.0.1150.30, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:61764}, msedge: {msedgedriverVersion: 98.0.1108.62 (86b4ba0c0a320..., userDataDir: C:\Users\Admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1b69402fb1248ed125b0bfa5382c18a0
+*** Element info: {Using=xpath, value=//div[@class=&apos;k4urcfbm&apos;]//label}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.sendKeys(Unknown Source)
+	at pom.HeaderPageFaceBook.sendDataOnSearchBar(HeaderPageFaceBook.java:55)
+	at fbTest.HeaderPageTestNg.faceBookHeaderPage(HeaderPageTestNg.java:93)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

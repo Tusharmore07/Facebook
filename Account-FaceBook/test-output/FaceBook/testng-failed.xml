@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FaceBook]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SystemTest(failed)">
+    <classes>
+      <class name="fbTest.MessengerPageTestNg">
+        <methods>
+          <include name="loginToFaceBook"/>
+          <include name="createObject"/>
+          <include name="messengerOperation"/>
+          <include name="logOutFaceBook"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="clearPOMObject"/>
+        </methods>
+      </class> <!-- fbTest.MessengerPageTestNg -->
+      <class name="fbTest.ProfilePageTestNg">
+        <methods>
+          <include name="profilePageOperation"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="clearPOMObject"/>
+          <include name="createObject"/>
+          <include name="logOutFaceBook"/>
+          <include name="loginToFaceBook"/>
+        </methods>
+      </class> <!-- fbTest.ProfilePageTestNg -->
+      <class name="fbTest.AddFriendTestNg">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="clearPOMObject"/>
+          <include name="loginToFaceBook"/>
+          <include name="ceateObject"/>
+          <include name="logOutFaceBook"/>
+          <include name="addFriendOperation"/>
+        </methods>
+      </class> <!-- fbTest.AddFriendTestNg -->
+      <class name="fbTest.HeaderPageTestNg">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="faceBookHeaderPage"/>
+          <include name="closeBrowser"/>
+          <include name="clearPOMObject"/>
+          <include name="ceateObject"/>
+          <include name="loginToFaceBook"/>
+          <include name="logOutFaceBook"/>
+        </methods>
+      </class> <!-- fbTest.HeaderPageTestNg -->
+    </classes>
+  </test> <!-- SystemTest(failed) -->
+</suite> <!-- Failed suite [FaceBook] -->

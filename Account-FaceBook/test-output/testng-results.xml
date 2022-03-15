@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="0" failed="2" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-08T19:27:53 IST" name="Suite" finished-at="2022-03-08T19:28:54 IST" duration-ms="61661">
+    <groups>
+    </groups>
+    <test started-at="2022-03-08T19:27:53 IST" name="ChromeTest" finished-at="2022-03-08T19:27:56 IST" duration-ms="3711">
+      <class name="fbTest.AddFriendTestNg">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:fbTest.AddFriendTestNg@635eaaf1]" started-at="2022-03-08T19:27:53 IST" name="launchBrowser" finished-at="2022-03-08T19:27:56 IST" duration-ms="3517" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 97
+Current browser version is 99.0.4844.51 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-CSUM0VT', ip: '192.168.1.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+Ordinal0 [0x004AFDC3+2555331]
+Ordinal0 [0x004477F1+2127857]
+Ordinal0 [0x00342E08+1060360]
+Ordinal0 [0x003619CA+1186250]
+Ordinal0 [0x0035D825+1169445]
+Ordinal0 [0x0035AFC1+1159105]
+Ordinal0 [0x0038C22F+1360431]
+Ordinal0 [0x0038BE9A+1359514]
+Ordinal0 [0x00387976+1341814]
+Ordinal0 [0x003636B6+1193654]
+Ordinal0 [0x00364546+1197382]
+GetHandleVerifier [0x00649622+1619522]
+GetHandleVerifier [0x006F882C+2336844]
+GetHandleVerifier [0x005423E1+541697]
+GetHandleVerifier [0x00541443+537699]
+Ordinal0 [0x0044D18E+2150798]
+Ordinal0 [0x00451518+2168088]
+Ordinal0 [0x00451660+2168416]
+Ordinal0 [0x0045B330+2208560]
+BaseThreadInitThunk [0x76DFFA29+25]
+RtlGetAppContainerNamedObjectPath [0x776C7A9E+286]
+RtlGetAppContainerNamedObjectPath [0x776C7A6E+238]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 97
+Current browser version is 99.0.4844.51 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-CSUM0VT', ip: '192.168.1.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+Ordinal0 [0x004AFDC3+2555331]
+Ordinal0 [0x004477F1+2127857]
+Ordinal0 [0x00342E08+1060360]
+Ordinal0 [0x003619CA+1186250]
+Ordinal0 [0x0035D825+1169445]
+Ordinal0 [0x0035AFC1+1159105]
+Ordinal0 [0x0038C22F+1360431]
+Ordinal0 [0x0038BE9A+1359514]
+Ordinal0 [0x00387976+1341814]
+Ordinal0 [0x003636B6+1193654]
+Ordinal0 [0x00364546+1197382]
+GetHandleVerifier [0x00649622+1619522]
+GetHandleVerifier [0x006F882C+2336844]
+GetHandleVerifier [0x005423E1+541697]
+GetHandleVerifier [0x00541443+537699]
+Ordinal0 [0x0044D18E+2150798]
+Ordinal0 [0x00451518+2168088]
+Ordinal0 [0x00451660+2168416]
+Ordinal0 [0x0045B330+2208560]
+BaseThreadInitThunk [0x76DFFA29+25]
+RtlGetAppContainerNamedObjectPath [0x776C7A9E+286]
+RtlGetAppContainerNamedObjectPath [0x776C7A6E+238]
+
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at fbTest.AddFriendTestNg.launchBrowser(AddFriendTestNg.java:39)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="ceateObject()[pri:0, instance:fbTest.AddFriendTestNg@635eaaf1]" started-at="2022-03-08T19:27:56 IST" name="ceateObject" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1646747876843" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ceateObject -->
+        <test-method is-config="true" signature="loginToFaceBook()[pri:0, instance:fbTest.AddFriendTestNg@635eaaf1]" started-at="2022-03-08T19:27:56 IST" name="loginToFaceBook" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1646747876862" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToFaceBook -->
+        <test-method signature="addFriendOperation()[pri:0, instance:fbTest.AddFriendTestNg@635eaaf1]" started-at="2022-03-08T19:27:56 IST" name="addFriendOperation" finished-at="2022-03-08T19:27:56 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 97
+Current browser version is 99.0.4844.51 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-CSUM0VT', ip: '192.168.1.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+Ordinal0 [0x004AFDC3+2555331]
+Ordinal0 [0x004477F1+2127857]
+Ordinal0 [0x00342E08+1060360]
+Ordinal0 [0x003619CA+1186250]
+Ordinal0 [0x0035D825+1169445]
+Ordinal0 [0x0035AFC1+1159105]
+Ordinal0 [0x0038C22F+1360431]
+Ordinal0 [0x0038BE9A+1359514]
+Ordinal0 [0x00387976+1341814]
+Ordinal0 [0x003636B6+1193654]
+Ordinal0 [0x00364546+1197382]
+GetHandleVerifier [0x00649622+1619522]
+GetHandleVerifier [0x006F882C+2336844]
+GetHandleVerifier [0x005423E1+541697]
+GetHandleVerifier [0x00541443+537699]
+Ordinal0 [0x0044D18E+2150798]
+Ordinal0 [0x00451518+2168088]
+Ordinal0 [0x00451660+2168416]
+Ordinal0 [0x0045B330+2208560]
+BaseThreadInitThunk [0x76DFFA29+25]
+RtlGetAppContainerNamedObjectPath [0x776C7A9E+286]
+RtlGetAppContainerNamedObjectPath [0x776C7A6E+238]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 97
+Current browser version is 99.0.4844.51 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-CSUM0VT', ip: '192.168.1.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+Ordinal0 [0x004AFDC3+2555331]
+Ordinal0 [0x004477F1+2127857]
+Ordinal0 [0x00342E08+1060360]
+Ordinal0 [0x003619CA+1186250]
+Ordinal0 [0x0035D825+1169445]
+Ordinal0 [0x0035AFC1+1159105]
+Ordinal0 [0x0038C22F+1360431]
+Ordinal0 [0x0038BE9A+1359514]
+Ordinal0 [0x00387976+1341814]
+Ordinal0 [0x003636B6+1193654]
+Ordinal0 [0x00364546+1197382]
+GetHandleVerifier [0x00649622+1619522]
+GetHandleVerifier [0x006F882C+2336844]
+GetHandleVerifier [0x005423E1+541697]
+GetHandleVerifier [0x00541443+537699]
+Ordinal0 [0x0044D18E+2150798]
+Ordinal0 [0x00451518+2168088]
+Ordinal0 [0x00451660+2168416]
+Ordinal0 [0x0045B330+2208560]
+BaseThreadInitThunk [0x76DFFA29+25]
+RtlGetAppContainerNamedObjectPath [0x776C7A9E+286]
+RtlGetAppContainerNamedObjectPath [0x776C7A6E+238]
+
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at fbTest.AddFriendTestNg.launchBrowser(AddFriendTestNg.java:39)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addFriendOperation -->
+        <test-method is-config="true" signature="logOutFaceBook()[pri:0, instance:fbTest.AddFriendTestNg@635eaaf1]" started-at="2022-03-08T19:27:56 IST" name="logOutFaceBook" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1646747876878" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFaceBook -->
+        <test-method is-config="true" signature="clearPOMObject()[pri:0, instance:fbTest.AddFriendTestNg@635eaaf1]" started-at="2022-03-08T19:27:56 IST" name="clearPOMObject" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1646747876893" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearPOMObject -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:fbTest.AddFriendTestNg@635eaaf1]" started-at="2022-03-08T19:27:56 IST" name="closeBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1646747876940" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- fbTest.AddFriendTestNg -->
+      <class name="fbTest.HeaderPageTestNg">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:fbTest.HeaderPageTestNg@1817d444]" started-at="2022-03-08T19:27:56 IST" name="launchBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1646747876796" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="ceateObject()[pri:0, instance:fbTest.HeaderPageTestNg@1817d444]" started-at="2022-03-08T19:27:56 IST" name="ceateObject" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1646747876898" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ceateObject -->
+        <test-method is-config="true" signature="loginToFaceBook()[pri:0, instance:fbTest.HeaderPageTestNg@1817d444]" started-at="2022-03-08T19:27:56 IST" name="loginToFaceBook" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1646747876905" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToFaceBook -->
+        <test-method signature="faceBookHeaderPage()[pri:0, instance:fbTest.HeaderPageTestNg@1817d444]" started-at="2022-03-08T19:27:56 IST" name="faceBookHeaderPage" finished-at="2022-03-08T19:27:56 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 97
+Current browser version is 99.0.4844.51 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-CSUM0VT', ip: '192.168.1.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+Ordinal0 [0x004AFDC3+2555331]
+Ordinal0 [0x004477F1+2127857]
+Ordinal0 [0x00342E08+1060360]
+Ordinal0 [0x003619CA+1186250]
+Ordinal0 [0x0035D825+1169445]
+Ordinal0 [0x0035AFC1+1159105]
+Ordinal0 [0x0038C22F+1360431]
+Ordinal0 [0x0038BE9A+1359514]
+Ordinal0 [0x00387976+1341814]
+Ordinal0 [0x003636B6+1193654]
+Ordinal0 [0x00364546+1197382]
+GetHandleVerifier [0x00649622+1619522]
+GetHandleVerifier [0x006F882C+2336844]
+GetHandleVerifier [0x005423E1+541697]
+GetHandleVerifier [0x00541443+537699]
+Ordinal0 [0x0044D18E+2150798]
+Ordinal0 [0x00451518+2168088]
+Ordinal0 [0x00451660+2168416]
+Ordinal0 [0x0045B330+2208560]
+BaseThreadInitThunk [0x76DFFA29+25]
+RtlGetAppContainerNamedObjectPath [0x776C7A9E+286]
+RtlGetAppContainerNamedObjectPath [0x776C7A6E+238]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 97
+Current browser version is 99.0.4844.51 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-CSUM0VT', ip: '192.168.1.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+Ordinal0 [0x004AFDC3+2555331]
+Ordinal0 [0x004477F1+2127857]
+Ordinal0 [0x00342E08+1060360]
+Ordinal0 [0x003619CA+1186250]
+Ordinal0 [0x0035D825+1169445]
+Ordinal0 [0x0035AFC1+1159105]
+Ordinal0 [0x0038C22F+1360431]
+Ordinal0 [0x0038BE9A+1359514]
+Ordinal0 [0x00387976+1341814]
+Ordinal0 [0x003636B6+1193654]
+Ordinal0 [0x00364546+1197382]
+GetHandleVerifier [0x00649622+1619522]
+GetHandleVerifier [0x006F882C+2336844]
+GetHandleVerifier [0x005423E1+541697]
+GetHandleVerifier [0x00541443+537699]
+Ordinal0 [0x0044D18E+2150798]
+Ordinal0 [0x00451518+2168088]
+Ordinal0 [0x00451660+2168416]
+Ordinal0 [0x0045B330+2208560]
+BaseThreadInitThunk [0x76DFFA29+25]
+RtlGetAppContainerNamedObjectPath [0x776C7A9E+286]
+RtlGetAppContainerNamedObjectPath [0x776C7A6E+238]
+
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at fbTest.AddFriendTestNg.launchBrowser(AddFriendTestNg.java:39)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- faceBookHeaderPage -->
+        <test-method is-config="true" signature="logOutFaceBook()[pri:0, instance:fbTest.HeaderPageTestNg@1817d444]" started-at="2022-03-08T19:27:56 IST" name="logOutFaceBook" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1646747876918" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFaceBook -->
+        <test-method is-config="true" signature="clearPOMObject()[pri:0, instance:fbTest.HeaderPageTestNg@1817d444]" started-at="2022-03-08T19:27:56 IST" name="clearPOMObject" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1646747876925" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearPOMObject -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:fbTest.HeaderPageTestNg@1817d444]" started-at="2022-03-08T19:27:56 IST" name="closeBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1646747876947" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- fbTest.HeaderPageTestNg -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2022-03-08T19:27:57 IST" name="EdgeTest" finished-at="2022-03-08T19:28:54 IST" duration-ms="57804">
+      <class name="fbTest.AddFriendTestNg">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:fbTest.AddFriendTestNg@7334aada]" started-at="2022-03-08T19:27:57 IST" name="launchBrowser" finished-at="2022-03-08T19:28:01 IST" duration-ms="4289" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="ceateObject()[pri:0, instance:fbTest.AddFriendTestNg@7334aada]" started-at="2022-03-08T19:28:05 IST" name="ceateObject" finished-at="2022-03-08T19:28:05 IST" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ceateObject -->
+        <test-method is-config="true" signature="loginToFaceBook()[pri:0, instance:fbTest.AddFriendTestNg@7334aada]" started-at="2022-03-08T19:28:05 IST" name="loginToFaceBook" finished-at="2022-03-08T19:28:10 IST" duration-ms="4489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToFaceBook -->
+        <test-method signature="addFriendOperation()[pri:0, instance:fbTest.AddFriendTestNg@7334aada]" started-at="2022-03-08T19:28:10 IST" name="addFriendOperation" finished-at="2022-03-08T19:28:20 IST" duration-ms="10037" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//label[contains(@class,'lzcic4wl gs1a9yip br7hx1')]"}
+  (Session info: MicrosoftEdge=99.0.1150.30)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-CSUM0VT', ip: '192.168.1.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 99.0.1150.30, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:61741}, msedge: {msedgedriverVersion: 98.0.1108.62 (86b4ba0c0a320..., userDataDir: C:\Users\Admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ed27629ada56fa2f5f5c9e11235b9578
+*** Element info: {Using=xpath, value=//label[contains(@class,'lzcic4wl gs1a9yip br7hx1')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//label[contains(@class,'lzcic4wl gs1a9yip br7hx1')]"}
+  (Session info: MicrosoftEdge=99.0.1150.30)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-CSUM0VT', ip: '192.168.1.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 99.0.1150.30, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:61741}, msedge: {msedgedriverVersion: 98.0.1108.62 (86b4ba0c0a320..., userDataDir: C:\Users\Admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ed27629ada56fa2f5f5c9e11235b9578
+*** Element info: {Using=xpath, value=//label[contains(@class,'lzcic4wl gs1a9yip br7hx1')]}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy17.sendKeys(Unknown Source)
+at pom.AddFriendFaceBook.clickOnSearchBar(AddFriendFaceBook.java:38)
+at fbTest.AddFriendTestNg.addFriendOperation(AddFriendTestNg.java:94)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addFriendOperation -->
+        <test-method is-config="true" signature="logOutFaceBook()[pri:0, instance:fbTest.AddFriendTestNg@7334aada]" started-at="2022-03-08T19:28:20 IST" name="logOutFaceBook" finished-at="2022-03-08T19:28:23 IST" duration-ms="3739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFaceBook -->
+        <test-method is-config="true" signature="clearPOMObject()[pri:0, instance:fbTest.AddFriendTestNg@7334aada]" started-at="2022-03-08T19:28:23 IST" name="clearPOMObject" finished-at="2022-03-08T19:28:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearPOMObject -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:fbTest.AddFriendTestNg@7334aada]" started-at="2022-03-08T19:28:53 IST" name="closeBrowser" finished-at="2022-03-08T19:28:54 IST" duration-ms="498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- fbTest.AddFriendTestNg -->
+      <class name="fbTest.HeaderPageTestNg">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:fbTest.HeaderPageTestNg@1d9b7cce]" started-at="2022-03-08T19:28:01 IST" name="launchBrowser" finished-at="2022-03-08T19:28:05 IST" duration-ms="4144" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="ceateObject()[pri:0, instance:fbTest.HeaderPageTestNg@1d9b7cce]" started-at="2022-03-08T19:28:23 IST" name="ceateObject" finished-at="2022-03-08T19:28:23 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ceateObject -->
+        <test-method is-config="true" signature="loginToFaceBook()[pri:0, instance:fbTest.HeaderPageTestNg@1d9b7cce]" started-at="2022-03-08T19:28:23 IST" name="loginToFaceBook" finished-at="2022-03-08T19:28:26 IST" duration-ms="2415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToFaceBook -->
+        <test-method signature="faceBookHeaderPage()[pri:0, instance:fbTest.HeaderPageTestNg@1d9b7cce]" started-at="2022-03-08T19:28:26 IST" name="faceBookHeaderPage" finished-at="2022-03-08T19:28:50 IST" duration-ms="24187" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='k4urcfbm']//label"}
+  (Session info: MicrosoftEdge=99.0.1150.30)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-CSUM0VT', ip: '192.168.1.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 99.0.1150.30, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:61764}, msedge: {msedgedriverVersion: 98.0.1108.62 (86b4ba0c0a320..., userDataDir: C:\Users\Admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1b69402fb1248ed125b0bfa5382c18a0
+*** Element info: {Using=xpath, value=//div[@class='k4urcfbm']//label}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='k4urcfbm']//label"}
+  (Session info: MicrosoftEdge=99.0.1150.30)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-CSUM0VT', ip: '192.168.1.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 99.0.1150.30, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:61764}, msedge: {msedgedriverVersion: 98.0.1108.62 (86b4ba0c0a320..., userDataDir: C:\Users\Admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1b69402fb1248ed125b0bfa5382c18a0
+*** Element info: {Using=xpath, value=//div[@class='k4urcfbm']//label}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy17.sendKeys(Unknown Source)
+at pom.HeaderPageFaceBook.sendDataOnSearchBar(HeaderPageFaceBook.java:55)
+at fbTest.HeaderPageTestNg.faceBookHeaderPage(HeaderPageTestNg.java:93)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- faceBookHeaderPage -->
+        <test-method is-config="true" signature="logOutFaceBook()[pri:0, instance:fbTest.HeaderPageTestNg@1d9b7cce]" started-at="2022-03-08T19:28:50 IST" name="logOutFaceBook" finished-at="2022-03-08T19:28:53 IST" duration-ms="3191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFaceBook -->
+        <test-method is-config="true" signature="clearPOMObject()[pri:0, instance:fbTest.HeaderPageTestNg@1d9b7cce]" started-at="2022-03-08T19:28:53 IST" name="clearPOMObject" finished-at="2022-03-08T19:28:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearPOMObject -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:fbTest.HeaderPageTestNg@1d9b7cce]" started-at="2022-03-08T19:28:54 IST" name="closeBrowser" finished-at="2022-03-08T19:28:54 IST" duration-ms="647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- fbTest.HeaderPageTestNg -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
